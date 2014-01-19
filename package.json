@@ -1,15 +1,18 @@
-{  "name": "nodedooris",
+{
+  "name": "nodedooris",
   "description": "",
   "version": "0.0.1",
   "private": true,
   "author": "gnomus",
-    "engines": {
+  "engines": {
     "node": ">= 0.10.0"
   },
   "dependencies": {
     "irc": "latest",
     "moment": "latest",
-    "cron": "latest"
+    "cron": "latest",
+    "feedparser": "latest",
+    "request": "latest"
   },
   "devDependencies": {
     "grunt": "~0.4.2",

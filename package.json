@@ -1,0 +1,20 @@
+{  "name": "nodedooris",
+  "description": "",
+  "version": "0.0.1",
+  "private": true,
+  "author": "gnomus",
+    "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "irc": "latest",
+    "moment": "latest",
+    "cron": "latest"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-nodeunit": "~0.2.2"
+  }
+}

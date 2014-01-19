@@ -13,6 +13,6 @@ module.exports = {
 	},
 	wiki: {
 		url: "http://wiki.hamburg.ccc.de/index.php?title=Special:RecentChanges&feed=atom",
-		cronString: "0 * * * * *"
+		cronString: "30 * * * * *"
 	}
 };

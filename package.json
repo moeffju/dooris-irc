@@ -12,7 +12,9 @@
     "moment": "latest",
     "cron": "latest",
     "feedparser": "latest",
-    "request": "latest"
+    "request": "latest",
+    "ical": "latest",
+    "underscore": "latest"
   },
   "devDependencies": {
     "grunt": "~0.4.2",

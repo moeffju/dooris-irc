@@ -8,15 +8,15 @@ module.exports = {
   },
   doorstatus: {
     url: "http://hamburg.ccc.de/dooris/dooris.json",
-    cronString: "0 * * * * *",
+    cronString: "0 */2 * * * *",
     staticLeases: 2
   },
   wiki: {
     url: "http://wiki.hamburg.ccc.de/index.php?title=Special:RecentChanges&feed=atom",
-    cronString: "30 * * * * *"
+    cronString: "30 */2 * * * *"
   },
   calendar: {
     url: "http://wiki.hamburg.ccc.de/calendar.ics",
-    cronString: "*/10 * * * * *"
+    cronString: "15 */2 * * * *"
   }
 };

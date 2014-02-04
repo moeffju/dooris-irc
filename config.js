@@ -3,7 +3,7 @@ module.exports = {
     server: "irc.hackint.org",
     port: 9999,
     sslCert: "hackint.pem",
-    channels: ["#ccchh"],
+    channels: ["#ccchh-dev"],
     nick: "nodedooris"
   },
   doorstatus: {
@@ -20,4 +20,3 @@ module.exports = {
     cronString: "15 */2 * * * *"
   }
 };
-

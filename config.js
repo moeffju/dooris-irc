@@ -3,7 +3,7 @@ module.exports = {
     server: "irc.hackint.org",
     port: 9999,
     sslCert: "hackint.pem",
-    channels: ["#ccchh-dev"],
+    channels: ["#ccchh"],
     nick: "nodedooris"
   },
   doorstatus: {

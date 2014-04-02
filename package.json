@@ -14,7 +14,8 @@
     "feedparser": "latest",
     "request": "latest",
     "ical": "latest",
-    "underscore": "latest"
+    "underscore": "latest",
+    "twitter": "latest"
   },
   "devDependencies": {
     "grunt": "~0.4.2",

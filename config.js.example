@@ -1,9 +1,10 @@
 module.exports = {
+  applicationStart: new Date(),
   irc: {
     server: "irc.hackint.org",
     port: 9999,
     sslCert: "hackint.pem",
-    channels: ["#ccchh"],
+    channels: ["#ccchh-dev"],
     nick: "nodedooris"
   },
   doorstatus: {
@@ -18,5 +19,13 @@ module.exports = {
   calendar: {
     url: "http://wiki.hamburg.ccc.de/calendar.ics",
     cronString: "15 */2 * * * *"
+  },
+  twitter: {
+    consumer_key: 'foobar',
+    consumer_secret: 'foobar',
+    access_token_key: 'foobar',
+    access_token_secret: 'foobar',
+    search_string: '%23ccchh',
+    cronString: '*/10 * * * * *'
   }
 };

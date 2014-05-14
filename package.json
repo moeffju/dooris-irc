@@ -15,7 +15,8 @@
     "request": "latest",
     "ical": "latest",
     "underscore": "latest",
-    "twitter": "latest"
+    "twitter": "latest",
+    "express": "latest"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
